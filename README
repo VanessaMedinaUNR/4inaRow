@@ -13,8 +13,11 @@ This is a web-based implementation of a 4x4 "Four-in-a-Row" Tic-Tac-Toe game. Tw
 4. Start the server: 
    node server.js
 5. Open your browser:
-   http://localhost:3000
+   https://crispy-fortnight-px95jw4p7xpfx45-3000.app.github.dev/
 
 
 ## You can run and preview the game using codespace link: 
 https://crispy-fortnight-px95jw4p7xpfx45.github.dev/
+
+## game preview link:
+https://crispy-fortnight-px95jw4p7xpfx45-3000.app.github.dev/
