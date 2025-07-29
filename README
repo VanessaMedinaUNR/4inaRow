@@ -6,10 +6,9 @@ This is a web-based implementation of a 4x4 "Four-in-a-Row" Tic-Tac-Toe game. Tw
 
 ## How to Play
 
-1. Clone or download the repository.
-2. Open a terminal in the project directory.
+1. Clone or download the repository. Or click codespace link
+2. Open a terminal 
 3. Install dependencies:
-   ```bash
    npm install
 4. Start the server: 
    node server.js
