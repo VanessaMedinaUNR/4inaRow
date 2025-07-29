@@ -1,21 +1,29 @@
 table {
-    border-collapse: collapse;
-    margin-bottom: 10px;
+  border-collapse: collapse;
+  margin-bottom: 10px;
 }
-
 td {
-    width: 60px;
-    height: 60px;
-    border: 1px solid black;
-    font-size: 40px;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  font-size: 40px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+td.winning {
+  color: red;
 }
 
-#layoutBox {
+#boardBox {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#boundingBox {
+  display: flex;
+  flex-direction:column;
   align-items: center;
   justify-content: center;
 }

@@ -1,14 +1,23 @@
-const express = require('express');
+/**
+ * @file server.js
+ * @description Main Express server for the Four-in-a-Row game application.
+ */
 
+const express = require('express');
 const app = express();
 const PORT = 3000;
 
-app.use(express.static('public'));
+const gameRoutes = require('./routes/gameRoutes');
 
+app.use(express.json());            
+app.use(express.static('public')); 
+app.use('/api', gameRoutes);        
+
+// Start the server
 app.listen(PORT, (error) => {
-    if(!error)
-        console.log("Server is Successfully Running, and App is listening on port "+ PORT);
-    else 
-        console.log("Error occurred, server can't start", error);
-
+    if (!error) {
+        console.log(`Server running on http://localhost:${PORT}`);
+    } else {
+        console.error("Server error:", error);
+    }
 });

@@ -2,27 +2,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title> 4 in a Row</title>
 </head>
 <body>
-    <div id="layoutBox">
-        <div id="tableContainer">
-              <table>
-                  <tr>
-                      <td id="cell-0"></td><td id="cell-1"></td><td id="cell-2"></td><td id="cell-3"></td>
-                  </tr>
-                  <tr>
-                      <td id="cell-4"></td><td id="cell-5"></td><td id="cell-6"></td><td id="cell-7"></td>
-                  </tr>
-                  <tr>
-                      <td id="cell-8"></td><td id="cell-9"></td><td id="cell-10"></td><td id="cell-11"></td>
-                  </tr>
-                  <tr>
-                      <td id="cell-12"></td><td id="cell-13"></td><td id="cell-14"></td><td id="cell-15"></td>
-                  </tr>
-              </table>
-          </div>
-          <button id="gameBtn">Start</button>
-      </div>      
+    <p>Flip to see who starts. Player = O and Computer = X. Then hit start to begin! </p>
+    <div id="boundingBox">
+        <div id="boardBox">
+            <table id ="board">
+                <tr>
+                    <td id="cell-0"></td><td id="cell-1"></td><td id="cell-2"></td><td id="cell-3"></td>
+                </tr>
+                <tr>
+                    <td id="cell-4"></td><td id="cell-5"></td><td id="cell-6"></td><td id="cell-7"></td>
+                </tr>
+                <tr>
+                    <td id="cell-8"></td><td id="cell-9"></td><td id="cell-10"></td><td id="cell-11"></td>
+                </tr>
+                <tr>
+                    <td id="cell-12"></td><td id="cell-13"></td><td id="cell-14"></td><td id="cell-15"></td>
+                </tr>
+            </table>
+        </div>
+    
+        <div id="buttonBox">
+            <button id="startClearbtn">Start</button>
+        </div>
+    </div>   
+    
+    <script type="module" src="app.js"></script>
 </body>
 </html>
+
+
+

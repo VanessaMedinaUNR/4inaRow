@@ -1,0 +1,24 @@
+# Four-in-a-Row (4x4 Tic-Tac-Toe)
+
+## Description
+This is a web-based implementation of a 4x4 "Four-in-a-Row" Tic-Tac-Toe game. Two players (the user and the computer) take turns placing “O” and “X” marks on a 4x4 board. The objective is to get four of the same symbol in a row—vertically, horizontally, or diagonally.
+
+The game features:
+- Coin flip to determine who starts
+- Interactive 4x4 board UI
+- Game logic separated from UI
+- Server-side state persistence using Node.js/Express
+- JSDoc-documented source code
+- Basic computer opponent with automatic move delays
+
+## How to Play
+
+1. Clone or download the repository.
+2. Open a terminal in the project directory.
+3. Install dependencies:
+   ```bash
+   npm install
+4. Start the server: 
+   node server.js
+5. Open your browser:
+   http://localhost:3000
