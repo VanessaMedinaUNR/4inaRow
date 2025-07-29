@@ -3,13 +3,6 @@
 ## Description
 This is a web-based implementation of a 4x4 "Four-in-a-Row" Tic-Tac-Toe game. Two players (the user and the computer) take turns placing “O” and “X” marks on a 4x4 board. The objective is to get four of the same symbol in a row—vertically, horizontally, or diagonally.
 
-The game features:
-- Coin flip to determine who starts
-- Interactive 4x4 board UI
-- Game logic separated from UI
-- Server-side state persistence using Node.js/Express
-- JSDoc-documented source code
-- Basic computer opponent with automatic move delays
 
 ## How to Play
 
@@ -22,3 +15,7 @@ The game features:
    node server.js
 5. Open your browser:
    http://localhost:3000
+
+
+## You can run and preview the game using codespace link: 
+https://crispy-fortnight-px95jw4p7xpfx45.github.dev/
