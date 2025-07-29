@@ -6,7 +6,7 @@ This is a web-based implementation of a 4x4 "Four-in-a-Row" Tic-Tac-Toe game. Tw
 
 ## How to Play
 
-1. Clone or download the repository. Or click codespace link
+1. Clone and download the repository, or click codespace ide link
 2. Open a terminal 
 3. Install dependencies:
    npm install
@@ -16,7 +16,7 @@ This is a web-based implementation of a 4x4 "Four-in-a-Row" Tic-Tac-Toe game. Tw
    https://crispy-fortnight-px95jw4p7xpfx45-3000.app.github.dev/
 
 
-## You can run and preview the game using codespace link: 
+## You can run and preview the game using codespace ide link: 
 https://crispy-fortnight-px95jw4p7xpfx45.github.dev/
 
 ## game preview link:
